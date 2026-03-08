@@ -1,0 +1,34 @@
+{% if site.outreach %}
+  <div class="outreachs">
+    {% assign outreach_by_year = site.outreach | sort: 'year' | reverse | group_by: 'year' %}
+
+    {% for year_group in outreach_by_year %}
+      <h4 class="year">{{ year_group.name }}</h4>
+      <div class="table-responsive">
+	      <table class="table table-sm table-borderless">
+		{% assign talks = year_group.items %}
+		{% assign talks_limit = talks_size %}
+		{% for item in talks limit: talks_limit %}
+		  <tr>
+		    <!--<th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>-->
+		    <td>
+		      {% if item.inline %}
+		        {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+		      {% else %}
+		        <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+		        {% if item.description %}
+			      <div class="course-description">
+				{{ item.description | markdownify }}
+			      </div>
+			 {% endif %}
+		      {% endif %}
+		    </td>
+		  </tr>
+		{% endfor %}
+	      </table>
+    	   </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No outreach activities available yet.</p>
+{% endif %}

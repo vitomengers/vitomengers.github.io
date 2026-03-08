@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"ICRA":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"Journal of Vision":
+  color: "#006400"
+  url: https://jov.arvojournals.org/
+  
+"Scientific Reports":
+  color: "#006400"
+  url: https://www.nature.com/srep/
+  
+"GRC":
+  color: "#E56B70"
+  url: https://robotics-institute-germany.de/de/veranstaltungen/
+  
+"ICRA Workshop":
+  color: "#E56B70"
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
