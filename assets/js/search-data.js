@@ -7,42 +7,42 @@ ninja.data = [{
     title: "About Me",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
   },{id: "nav-news",
           title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/news/";
+            window.location.href = "/news/";
           },
         },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "Teaching and advising experience.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/teaching/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-talks-amp-outreach",
           title: "Talks &amp; Outreach",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/talks&outreach/";
+            window.location.href = "/talks&outreach/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "For publications, teaching experience, and outreach activities, see menu points above.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -70,7 +70,7 @@ ninja.data = [{
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/al-folio/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-official-start-of-this-webpage",
           title: 'Official start of this webpage 🎉',
           description: "",
@@ -147,32 +147,32 @@ ninja.data = [{
           title: 'Participation in “I’m a Scientist – Get Me Out of Here!”',
           description: "Participation in a nationwide dialogue initiative connecting school students directly with researchers",
           section: "Outreach",handler: () => {
-              window.location.href = "/al-folio/outreach/22_im_a_scientist/";
+              window.location.href = "/outreach/22_im_a_scientist/";
             },},{id: "outreach-girl-39-s-day-at-science-of-intelligence",
           title: 'Girl&amp;#39;s Day at Science of Intelligence',
           description: "Full-day event to inspire German school girls to pursue a career in science",
           section: "Outreach",handler: () => {
-              window.location.href = "/al-folio/outreach/23_girlsday/";
+              window.location.href = "/outreach/23_girlsday/";
             },},{id: "outreach-interactive-presentation-and-demo-at-the-alexander-von-humboldt-foundation-s-annual-alumni-event",
           title: 'Interactive Presentation and Demo at the Alexander von Humboldt Foundation’s Annual Alumni Event...',
           description: "Interdisciplinary Exchanges &amp; Public Outreach",
           section: "Outreach",handler: () => {
-              window.location.href = "/al-folio/outreach/24_avh/";
+              window.location.href = "/outreach/24_avh/";
             },},{id: "outreach-podcast-interview-about-my-research-in-german",
           title: 'Podcast Interview About My Research (in German)',
           description: "Podcast of the DFG (German Research Foundation) &quot;Exzellent Erklärt&quot;",
           section: "Outreach",handler: () => {
-              window.location.href = "/al-folio/outreach/25_podcast/";
+              window.location.href = "/outreach/25_podcast/";
             },},{id: "outreach-science-slam-at-the-berlin-science-week",
           title: 'Science Slam at the Berlin Science Week',
           description: "Title of my Slam -- &quot;Why my robot is still stupid&quot;",
           section: "Outreach",handler: () => {
-              window.location.href = "/al-folio/outreach/25_science_slam/";
+              window.location.href = "/outreach/25_science_slam/";
             },},{id: "projects-project-10",
           title: 'project 10',
           description: "A project with an introduction section",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/10_project/";
+              window.location.href = "/projects/10_project/";
             },},{id: "talks-talk-scioi-s-scientific-networking-days-differentiable-interconnected-recursive-estimation",
           title: 'Talk @ SCIoI’s Scientific Networking Days Differentiable Interconnected Recursive Estimation',
           description: "",
@@ -213,72 +213,72 @@ ninja.data = [{
           title: 'Responsible for Exercises — Basics of Robot Control',
           description: "Exercise instructor and assessor for course &quot;Robotics&quot;.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/21_robotics/";
+              window.location.href = "/teachings/21_robotics/";
             },},{id: "teachings-responsible-for-exercises-recursive-estimation",
           title: 'Responsible for Exercises — Recursive Estimation',
           description: "Exercise instructor and assessor for course &quot;Robotics&quot;.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/22_robotics/";
+              window.location.href = "/teachings/22_robotics/";
             },},{id: "teachings-advisor-course-quot-robotics-project-quot",
           title: 'Advisor — Course &amp;quot;Robotics Project&amp;quot;',
           description: "Supervised student projects, guided presentations and report writing, provided technical mentorship.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/22_robotics_project/";
+              window.location.href = "/teachings/22_robotics_project/";
             },},{id: "teachings-advisor-course-quot-robotics-seminar-quot",
           title: 'Advisor — Course &amp;quot;Robotics Seminar&amp;quot;',
           description: "Supervised student presentations and writing, facilitated seminar discussions.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/22_robotics_seminar/";
+              window.location.href = "/teachings/22_robotics_seminar/";
             },},{id: "teachings-responsible-for-exercises-visual-servoing",
           title: 'Responsible for Exercises — Visual Servoing',
           description: "Exercise instructor and assessor for course &quot;Robotics&quot;.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/23_robotics/";
+              window.location.href = "/teachings/23_robotics/";
             },},{id: "teachings-advisor-master-thesis-quot-tracking-hand-motion-to-infer-object-motion-constraints-quot",
           title: 'Advisor — Master Thesis &amp;quot;Tracking Hand Motion to Infer Object Motion Constraints&amp;quot;',
           description: "Co-Advised with Xing Li; Supervised and Examined by Oliver Brock &amp; Guillermo Gallego; **Winner of the Rolf-Niedermeier-Award**",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/24_ms_adrian/";
+              window.location.href = "/teachings/24_ms_adrian/";
             },},{id: "teachings-advisor-master-thesis-quot-estimating-robust-affordances-from-vision-by-combining-multiple-models-quot",
           title: 'Advisor — Master Thesis &amp;quot;Estimating Robust Affordances from Vision by Combining Multiple Models&amp;quot;...',
           description: "Supervised and Examined by Oliver Brock &amp; Guillermo Gallego",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/24_ms_patrick/";
+              window.location.href = "/teachings/24_ms_patrick/";
             },},{id: "teachings-responsible-for-exercises-amp-lecture-advanced-robot-control",
           title: 'Responsible for Exercises &amp;amp; Lecture — Advanced Robot Control',
           description: "Lecture delivery and exercise supervision in course &quot;Robotics&quot;.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/24_robotics/";
+              window.location.href = "/teachings/24_robotics/";
             },},{id: "teachings-advisor-course-quot-robotics-seminar-quot",
           title: 'Advisor — Course &amp;quot;Robotics Seminar&amp;quot;',
           description: "Supervised student presentations and writing, facilitated seminar discussions.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/24_robotics_seminar/";
+              window.location.href = "/teachings/24_robotics_seminar/";
             },},{id: "teachings-advisor-master-thesis-quot-comparing-the-mechanisms-of-plan-generation-in-humans-and-machines-via-failure-modes-quot",
           title: 'Advisor — Master Thesis &amp;quot;Comparing the Mechanisms of Plan Generation in Humans and...',
           description: "Supervised and Examined by Oliver Brock &amp; Eva Wiese",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/25_ms_antonia/";
+              window.location.href = "/teachings/25_ms_antonia/";
             },},{id: "teachings-advisor-master-thesis-quot-dynamically-leveraging-sensorimotor-regularities-by-integrating-perception-and-behavior-generation-quot",
           title: 'Advisor — Master Thesis &amp;quot;Dynamically Leveraging Sensorimotor Regularities by Integrating Perception and Behavior...',
           description: "Co-Advised with Aravind Battaje &amp; Alexander Koenig; Supervised and Examined by Oliver Brock &amp; Marc Toussaint",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/25_ms_malte/";
+              window.location.href = "/teachings/25_ms_malte/";
             },},{id: "teachings-responsible-for-exercises-amp-lecture-motion-planning",
           title: 'Responsible for Exercises &amp;amp; Lecture — Motion Planning',
           description: "Lecture delivery and exercise supervision in course &quot;Robotics&quot;.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/25_robotics/";
+              window.location.href = "/teachings/25_robotics/";
             },},{id: "teachings-advisor-course-quot-robotics-project-quot",
           title: 'Advisor — Course &amp;quot;Robotics Project&amp;quot;',
           description: "Supervised student projects, guided presentations and report writing, provided technical mentorship.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/25_robotics_project/";
+              window.location.href = "/teachings/25_robotics_project/";
             },},{id: "teachings-advisor-master-thesis-quot-active-interconnections-as-a-mechanistic-model-for-collective-behavior-quot",
           title: 'Advisor — Master Thesis &amp;quot;Active Interconnections as a Mechanistic Model for Collective Behavior&amp;quot;...',
           description: "Supervised and Examined by Oliver Brock &amp; Pawel Romanczuk",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/26_ms_duc/";
+              window.location.href = "/teachings/26_ms_duc/";
             },},{
         id: 'social-email',
         title: 'email',
