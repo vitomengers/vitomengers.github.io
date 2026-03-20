@@ -168,6 +168,11 @@ ninja.data = [{
           description: "Title of my Slam -- &quot;Why my robot is still stupid&quot;",
           section: "Outreach",handler: () => {
               window.location.href = "/al-folio/outreach/25_science_slam/";
+            },},{id: "projects-project-10",
+          title: 'project 10',
+          description: "A project with an introduction section",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/10_project/";
             },},{id: "talks-talk-scioi-s-scientific-networking-days-differentiable-interconnected-recursive-estimation",
           title: 'Talk @ SCIoI’s Scientific Networking Days Differentiable Interconnected Recursive Estimation',
           description: "",
