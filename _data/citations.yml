@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-24'
 papers:
   4Yp4lRwAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: 'AICON: A Representation for Adaptive Behavior'
     year: '2025'
   4Yp4lRwAAAAJ:UeHWp8X0CEIC:
-    citations: 12
+    citations: 11
     title: A robotics-inspired scanpath model reveals the importance of uncertainty and semantic object cues for gaze guidance in dynamic scenes
     year: '2025'
   4Yp4lRwAAAAJ:W7OEmFMy1HYC:
