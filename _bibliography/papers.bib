@@ -158,7 +158,7 @@
       title={A Mechanistic Model for Collective Motion from Sensorimotor Regularities}, 
       author={Vito Mengers and Bao Duc Cao and Oliver Brock},
       year={2026},
-      pdf = {https://arxiv.org/pdf/2605.16522}
+      pdf = {https://arxiv.org/pdf/2605.16522},
       booktitle={arXiv Preprint},
       abstract={Collective behavior in animals has long been modeled through self-propelled particle models, which reproduce striking group-level phenomena through abstract interaction forces. Yet these models are fundamentally descriptive: they leave open the question of how collective behavior is actually produced. Recent empirical work makes this gap concrete: locusts do not align with neighbors, sensory and cognitive mechanisms mediate interaction instead. A mechanistic model must therefore operate at the sensorimotor level, grounded in what individual organisms can actually perceive, estimate, and physically execute. We present such a model based on a modeling framework from robotics, extended here to collective motion. Each agent perceives neighbors through bearing and apparent-size cues within a limited field of view, maintains uncertain internal state estimates, and selects actions through gradient descent on a desired social distance -- without any prescribed interaction forces. This simple model produces diverse collective behaviors including polarized motion, milling, ring formations, and subgroup fragmentation. A global sensitivity analysis shows that behavioral transitions are governed by sensorimotor parameters corresponding to measurable biological quantities: field of view geometry, sensory noise, turning agility, and memory. Collective behavior can therefore be understood as the emergent outcome of interacting sensorimotor regularities, and differences across species as the emergent outcome of differences in embodiment and environment.}
       url={https://arxiv.org/abs/2605.16522},
@@ -171,7 +171,7 @@
       title={Riding the Shifting Potential: When Reactive Control Suffices for Multi-Goal Behavior}, 
       author={Vito Mengers and Oliver Brock},
       year={2026},
-      pdf = {https://arxiv.org/pdf/2605.27314}
+      pdf = {https://arxiv.org/pdf/2605.27314},
       booktitle={arXiv Preprint},
       abstract={Reactive control is often considered insufficient for multi-objective tasks because conflicting objectives give rise to local minima. We argue this limitation is not inherent but arises from static encodings that fail to reflect how objectives currently interact. We exploit the interaction structure encoded in a graph-based world model by extending it with nullspace projections: conflicts are resolved where they arise by projecting lower-priority gradients into the nullspace of higher-priority ones, with priorities determined continuously from the current state. We demonstrate this in two domains where conflicts between objectives are central: navigation around non-convex obstacles, where static potential fields fundamentally fail, and planar pushing of non-convex objects, where our method achieves 100% success across one-hundred configurations versus 0% for the steepest-descent baseline and ∼55% for diffusion policy, without demonstrations or retraining. The same formulation transfers directly to a real robot with additional perceptual and kinematic constraints, accommodating them through the same mechanism.}
       url={https://arxiv.org/abs/2605.27314},
@@ -182,10 +182,11 @@
 
 @inproceedings{migacev2026noplanyethuman,
       title={No Plan, Yet Human: A Reactive Robotics Model Predicts Human Planning Failures on a Clinical Task}, 
-      author={Michael Migacev and Vito Mengers and Antonia Köngeter and Oliver Brock},
+      author={Michael Migacev* and Vito Mengers* and Antonia Köngeter and Oliver Brock},
       year={2026},
-      pdf = {https://arxiv.org/pdf/2605.16514}
+      pdf = {https://arxiv.org/pdf/2605.16514},
       booktitle={arXiv Preprint},
+      annotation={* Equal Contribution},
       abstract={Understanding why some sequential planning problems are harder than others requires models that go beyond average performance. They should capture the specific pattern of which problems are hard, and ideally fail in the same way people do when planning capacity is reduced. We apply AICON, a reactive gradient-descent framework developed for robotic manipulation, to the Tower of London test, a cognitive test used to assess planning in Parkinson's disease, mild cognitive impairment, and stroke. Without any lookahead planning or knowledge of human cognition, AICON reproduces the fine-grained human difficulty ordering across 24 problems better than structural task parameters and generalizes to held-out problems in a leave-two-out evaluation. Crucially, AICON outperforms a planning baseline for groups with reduced planning capacity while the planning baseline better captures healthy controls. This dissociation was predicted by the original AICON paper, which noted that the model's failure modes resemble those of Parkinson's patients who struggle with goal hierarchies but not move counts. This suggests that as planning capacity is reduced, human behavior shifts toward the reactive mode AICON models. The finding extends a broader pattern: AICON, originally built for robotics, now captures aspects of biological behavior across perception, eye movements, and sequential planning, suggesting its core abstraction reflects something real about how biological systems are organized.}
       url={https://arxiv.org/abs/2605.16514},
       preview={tower_of_london.png},

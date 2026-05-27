@@ -14,6 +14,9 @@
   color: "#E56B70"
   url: https://robotics-institute-germany.de/de/veranstaltungen/
   
+"Preprint":
+  color: "#E56B70"
+  
 "ICRA Workshop":
   color: "#E56B70"
   url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
