@@ -1,12 +1,8 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-29'
 papers:
-  4Yp4lRwAAAAJ:2osOgNQ5qMEC:
-    citations: 0
-    title: 'Dataset: Leveraging Uncertainty in Collective Opinion Dynamics with Heterogeneity'
-    year: '2024'
   4Yp4lRwAAAAJ:IjCSPb-OGe4C:
-    citations: 6
+    citations: 8
     title: 'No Plan but Everything Under Control: Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent'
     year: '2025'
   4Yp4lRwAAAAJ:Tyk-4Ss8FVUC:
@@ -14,7 +10,7 @@ papers:
     title: 'AICON: A Representation for Adaptive Behavior'
     year: '2025'
   4Yp4lRwAAAAJ:UeHWp8X0CEIC:
-    citations: 13
+    citations: 15
     title: A robotics-inspired scanpath model reveals the importance of uncertainty and semantic object cues for gaze guidance in dynamic scenes
     year: '2025'
   4Yp4lRwAAAAJ:W7OEmFMy1HYC:
@@ -29,23 +25,27 @@ papers:
     citations: 0
     title: "Stop Merging, Start Separating: Why Merging Learning and Modeling Won\u2019t Solve Manipulation but Separating the General From the Specific Will"
     year: '2025'
+  4Yp4lRwAAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: A Mechanistic Model for Collective Motion from Sensorimotor Regularities
+    year: '2026'
   4Yp4lRwAAAAJ:eQOLeE2rZwMC:
     citations: 0
     title: Coupled Particle Filters for Robust Affordance Estimation
     year: '2026'
-  4Yp4lRwAAAAJ:qjMakFHDy7sC:
-    citations: 0
-    title: 'Supplementary Videos: A robotics-inspired scanpath model reveals the importance of uncertainty and semantic object cues for gaze guidance in dynamic scenes'
-    year: '2025'
   4Yp4lRwAAAAJ:u-x6o8ySG0sC:
-    citations: 12
+    citations: 14
     title: Leveraging uncertainty in collective opinion dynamics with heterogeneity
     year: '2024'
   4Yp4lRwAAAAJ:u5HHmVD_uO8C:
     citations: 11
     title: Combining Motion and Appearance for Robust Probabilistic Object Segmentation in Real Time
     year: '2023'
+  4Yp4lRwAAAAJ:ufrVoPGSRksC:
+    citations: 0
+    title: 'No Plan, Yet Human: A Reactive Robotics Model Predicts Human Planning Failures on a Clinical Task'
+    year: '2026'
   4Yp4lRwAAAAJ:zYLM7Y9cAGgC:
-    citations: 3
+    citations: 4
     title: A Helping (Human) Hand in Kinematic Structure Estimation
     year: '2025'
