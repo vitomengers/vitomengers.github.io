@@ -1,16 +1,20 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-05'
 papers:
   4Yp4lRwAAAAJ:IjCSPb-OGe4C:
-    citations: 8
+    citations: 10
     title: 'No Plan but Everything Under Control: Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent'
     year: '2025'
+  4Yp4lRwAAAAJ:LkGwnXOMwfcC:
+    citations: 0
+    title: 'Riding the Shifting Potential: When Reactive Control Suffices for Multi-Goal Behavior'
+    year: '2026'
   4Yp4lRwAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
     title: 'AICON: A Representation for Adaptive Behavior'
     year: '2025'
   4Yp4lRwAAAAJ:UeHWp8X0CEIC:
-    citations: 15
+    citations: 17
     title: A robotics-inspired scanpath model reveals the importance of uncertainty and semantic object cues for gaze guidance in dynamic scenes
     year: '2025'
   4Yp4lRwAAAAJ:W7OEmFMy1HYC:
@@ -34,15 +38,15 @@ papers:
     title: Coupled Particle Filters for Robust Affordance Estimation
     year: '2026'
   4Yp4lRwAAAAJ:u-x6o8ySG0sC:
-    citations: 14
+    citations: 16
     title: Leveraging uncertainty in collective opinion dynamics with heterogeneity
     year: '2024'
   4Yp4lRwAAAAJ:u5HHmVD_uO8C:
-    citations: 11
+    citations: 12
     title: Combining Motion and Appearance for Robust Probabilistic Object Segmentation in Real Time
     year: '2023'
   4Yp4lRwAAAAJ:ufrVoPGSRksC:
-    citations: 0
+    citations: 1
     title: 'No Plan, Yet Human: A Reactive Robotics Model Predicts Human Planning Failures on a Clinical Task'
     year: '2026'
   4Yp4lRwAAAAJ:zYLM7Y9cAGgC:
