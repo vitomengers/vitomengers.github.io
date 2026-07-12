@@ -1,20 +1,24 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-07-01'
 papers:
   4Yp4lRwAAAAJ:IjCSPb-OGe4C:
-    citations: 10
+    citations: 11
     title: 'No Plan but Everything Under Control: Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent'
     year: '2025'
   4Yp4lRwAAAAJ:LkGwnXOMwfcC:
     citations: 0
     title: 'Riding the Shifting Potential: When Reactive Control Suffices for Multi-Goal Behavior'
     year: '2026'
+  4Yp4lRwAAAAJ:Se3iqnhoufwC:
+    citations: 0
+    title: World-Task Factorization for Robot Learning
+    year: '2026'
   4Yp4lRwAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
     title: 'AICON: A Representation for Adaptive Behavior'
     year: '2025'
   4Yp4lRwAAAAJ:UeHWp8X0CEIC:
-    citations: 17
+    citations: 16
     title: A robotics-inspired scanpath model reveals the importance of uncertainty and semantic object cues for gaze guidance in dynamic scenes
     year: '2025'
   4Yp4lRwAAAAJ:W7OEmFMy1HYC:
@@ -37,8 +41,12 @@ papers:
     citations: 0
     title: Coupled Particle Filters for Robust Affordance Estimation
     year: '2026'
+  4Yp4lRwAAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: Building Generalization Into Behavior Generation Via Adaptive Compositions of Regularities
+    year: '2026'
   4Yp4lRwAAAAJ:u-x6o8ySG0sC:
-    citations: 16
+    citations: 18
     title: Leveraging uncertainty in collective opinion dynamics with heterogeneity
     year: '2024'
   4Yp4lRwAAAAJ:u5HHmVD_uO8C:
