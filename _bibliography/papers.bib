@@ -3,6 +3,7 @@
 
 @string{icra = {International Conference on Robotics and Automation (ICRA)}}
 @string{grc = {German Robotics Conference (GRC)}}
+@string{sab = {International Conference on the Simulation of Adaptive Behavior (SAB)}}
 
 @inproceedings{mengers2023combining,
   title={Combining Motion and Appearance for Robust Probabilistic Object Segmentation in Real Time},
@@ -16,6 +17,7 @@
   pdf={https://www.static.tu.berlin/fileadmin/www/10002220/Publications/Mengers-23-ICRA.pdf},
   bibtex_show={true},
   preview={motion_and_appearance_aicon.png},
+  papertype={conference},
 }
 
 @article{mengers2024leveraging,
@@ -34,6 +36,7 @@
   html={https://rbo.gitlab-pages.tu-berlin.de/papers/mengers-sci-rep-25/},
   pdf={https://www.nature.com/articles/s41598-024-78856-8},
   preview={collective_aicon.gif},
+  papertype={journal},
 }
 
 @article{mengers2025robotics,
@@ -51,6 +54,7 @@
   html={https://rbo.gitlab-pages.tu-berlin.de/papers/mengers-jov-25/},
   pdf={https://jov.arvojournals.org/article.aspx?articleid=2802570},
   preview={scanpath_aicon.gif},
+  papertype={journal},
 }
 
 @inproceedings{mengers2025no,
@@ -72,6 +76,7 @@
   selected={true},
   preview={noplan.gif},
   bibtex_show={true},
+  papertype={conference},
 }
 
 @inproceedings{pfisterer2025helping,
@@ -89,6 +94,7 @@
   annotation={* Equal Contribution},
   bibtex_show={true},
   preview={adrian_ms_icra.png},
+  papertype={conference},
 }
 
 @inproceedings{mengers2025stop,
@@ -102,6 +108,7 @@
   annotation={* Equal Contribution},
   preview={stop_merging.png},
   pdf={https://www.static.tu.berlin/fileadmin/www/10002220/Publications/30_Stop_Merging_Start_Separating.pdf},
+  papertype={conference},
 }
 
 @inproceedings{mengersbattajeGRC25,
@@ -114,7 +121,8 @@
     annotation={* Equal Contribution},
     preview={aicon_grc1.png},
     bibtex_show={true},
-    pdf = {https://www.static.tu.berlin/fileadmin/www/10002220/Publications/Mengers-Battaje-GRC-25.pdf}
+    pdf = {https://www.static.tu.berlin/fileadmin/www/10002220/Publications/Mengers-Battaje-GRC-25.pdf},
+    papertype={workshop_or_abstract},
 }
 
 @inproceedings{pfistererGRC2025,
@@ -127,7 +135,8 @@
     annotation={* Equal Contribution},
     preview={adrian_ms_grc.png},
     bibtex_show={true},
-    pdf = {https://www.tu.berlin/fileadmin/www/10002220/Publications/Pfisterer_Li_et_al_GRC25.pdf}
+    pdf = {https://www.tu.berlin/fileadmin/www/10002220/Publications/Pfisterer_Li_et_al_GRC25.pdf},
+    papertype={workshop_or_abstract},
 }
 
 @inproceedings{lowin2026,
@@ -139,7 +148,8 @@
     abstract={Robotic affordance estimation is challenging due to visual, geometric, and semantic ambiguities in sensory input. We propose a method that disambiguates these signals using two coupled recursive estimators for sub-aspects of affordances: graspable and movable regions. Each estimator encodes property-specific regularities to reduce uncertainty, while their coupling enables bidirectional information exchange that focuses attention on regions where both agree, i.e., affordances. Evaluated on a real-world dataset, our method outperforms three recent affordance estimators (Where2Act, Hands-as-Probes, and HRP) by 308%, 245%, and 257% in precision, and remains robust under challenging conditions such as low light or cluttered environments. Furthermore, our method achieves a 70% success rate in our real-world evaluation. These results demonstrate that coupling complementary estimators yields precise, robust, and embodiment-appropriate affordance predictions.},
     preview={affordance_aicon.gif},
     bibtex_show={true},
-    pdf = {https://arxiv.org/pdf/2603.15223}
+    pdf = {https://arxiv.org/pdf/2603.15223},
+    papertype={conference},
 }
 
 @inproceedings{mengersGRC26,
@@ -151,7 +161,8 @@
     pdf = {https://www.static.tu.berlin/fileadmin/www/10002220/Publications/grc26_when_gradients_are_enough_abstract.pdf},
     preview={aicon_nullspaces_grc.png},
     bibtex_show={true},
-    abbr={GRC}
+    abbr={GRC},
+    papertype={workshop_or_abstract},
 }
 
 @inproceedings{mengers2026mechanistic,
@@ -159,12 +170,13 @@
       author={Vito Mengers and Bao Duc Cao and Oliver Brock},
       year={2026},
       pdf = {https://arxiv.org/pdf/2605.16522},
-      booktitle={arXiv Preprint},
+      booktitle=sab,
       abstract={Collective behavior in animals has long been modeled through self-propelled particle models, which reproduce striking group-level phenomena through abstract interaction forces. Yet these models are fundamentally descriptive: they leave open the question of how collective behavior is actually produced. Recent empirical work makes this gap concrete: locusts do not align with neighbors, sensory and cognitive mechanisms mediate interaction instead. A mechanistic model must therefore operate at the sensorimotor level, grounded in what individual organisms can actually perceive, estimate, and physically execute. We present such a model based on a modeling framework from robotics, extended here to collective motion. Each agent perceives neighbors through bearing and apparent-size cues within a limited field of view, maintains uncertain internal state estimates, and selects actions through gradient descent on a desired social distance -- without any prescribed interaction forces. This simple model produces diverse collective behaviors including polarized motion, milling, ring formations, and subgroup fragmentation. A global sensitivity analysis shows that behavioral transitions are governed by sensorimotor parameters corresponding to measurable biological quantities: field of view geometry, sensory noise, turning agility, and memory. Collective behavior can therefore be understood as the emergent outcome of interacting sensorimotor regularities, and differences across species as the emergent outcome of differences in embodiment and environment.},
       url={https://arxiv.org/abs/2605.16522},
       preview={collective_motion.gif},
       bibtex_show={true},
-      abbr={Preprint}
+      abbr={SAB},
+      papertype={conference},
 }
 
 @inproceedings{mengers2026riding,
@@ -177,7 +189,8 @@
       url={https://arxiv.org/abs/2605.27314},
       preview={nullspace_robot.JPG},
       bibtex_show={true},
-      abbr={Preprint}
+      abbr={Preprint},
+      papertype={preprint},
 }
 
 @inproceedings{migacev2026noplanyethuman,
@@ -185,13 +198,14 @@
       author={Michael Migacev* and Vito Mengers* and Antonia Köngeter and Oliver Brock},
       year={2026},
       pdf = {https://arxiv.org/pdf/2605.16514},
-      booktitle={arXiv Preprint},
+      booktitle=sab,
       annotation={* Equal Contribution},
       abstract={Understanding why some sequential planning problems are harder than others requires models that go beyond average performance. They should capture the specific pattern of which problems are hard, and ideally fail in the same way people do when planning capacity is reduced. We apply AICON, a reactive gradient-descent framework developed for robotic manipulation, to the Tower of London test, a cognitive test used to assess planning in Parkinson's disease, mild cognitive impairment, and stroke. Without any lookahead planning or knowledge of human cognition, AICON reproduces the fine-grained human difficulty ordering across 24 problems better than structural task parameters and generalizes to held-out problems in a leave-two-out evaluation. Crucially, AICON outperforms a planning baseline for groups with reduced planning capacity while the planning baseline better captures healthy controls. This dissociation was predicted by the original AICON paper, which noted that the model's failure modes resemble those of Parkinson's patients who struggle with goal hierarchies but not move counts. This suggests that as planning capacity is reduced, human behavior shifts toward the reactive mode AICON models. The finding extends a broader pattern: AICON, originally built for robotics, now captures aspects of biological behavior across perception, eye movements, and sequential planning, suggesting its core abstraction reflects something real about how biological systems are organized.},
       url={https://arxiv.org/abs/2605.16514},
       preview={tower_of_london.png},
       bibtex_show={true},
-      abbr={Preprint}
+      abbr={SAB},
+      papertype={conference},
 }
 
 @inproceedings{battaje2026building,
@@ -204,7 +218,8 @@
       url={https://arxiv.org/abs/2605.31110},
       preview={aicon_generalization.png},
       bibtex_show={true},
-      abbr={Preprint}
+      abbr={Preprint},
+      papertype={preprint},
 }
 
 @inproceedings{sebastian2026world,
@@ -217,5 +232,6 @@
       url={https://arxiv.org/abs/2606.02027},
       bibtex_show={true},
       preview={aicon_handover.png},
-      abbr={Preprint}
+      abbr={Preprint},
+      papertype={preprint},
 }

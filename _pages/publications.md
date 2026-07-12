@@ -15,7 +15,8 @@ nav_order: 2
     For citations and other metrics see
     <a href="https://scholar.google.com/citations?user=4Yp4lRwAAAAJ&hl=en">my Google Scholar page</a>.
   </div>
-  <div>
+  <div style="display:flex; flex-direction:column; align-items:flex-end; gap:6px;">
+    <button id="pub-sort-toggle" type="button" class="btn btn-sm z-depth-0">Sort by type</button>
     {% include bib_search.liquid %}
   </div>
 </div>
@@ -26,3 +27,5 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+<script src="{{ '/assets/js/publications_sort.js' | relative_url | bust_file_cache }}"></script>
