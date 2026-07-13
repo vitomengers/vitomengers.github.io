@@ -635,12 +635,17 @@ def main() -> int:
 
     yaml_section("Education")
     parts.append(render_publications(os.path.join(REPO, "_bibliography", "papers.bib")))
-    yaml_section("Experience")
+    # Experience and Volunteer are merged into one "Experience" section (the web
+    # page's cv.liquid does the same), so a standing membership isn't shown under
+    # a stray "Volunteer" heading.
+    experience = (sections.get("Experience") or []) + (sections.get("Volunteer") or [])
+    if experience:
+        parts.append(render_yaml_section("Experience", experience))
     yaml_section("Awards and Scholarships")
     yaml_section("Academic Service")
 
     # Any other hand-written cv.yml sections we didn't explicitly place.
-    placed = {"Education", "Experience", "Awards and Scholarships", "Academic Service"}
+    placed = {"Education", "Experience", "Volunteer", "Awards and Scholarships", "Academic Service"}
     for name, items in sections.items():
         if name not in placed and items:
             parts.append(render_yaml_section(name, items))

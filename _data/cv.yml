@@ -55,6 +55,9 @@ cv:
         end_date: ""
         summary: Developing computational models of intelligent behavior for robots. Furthermore, involved in teaching of multiple masters-level courses on robotics.
 
+    # Merged into "Experience" for display, both on the web page (cv.liquid) and
+    # in the generated PDF (bin/generate_cv.py).
+    Volunteer:
       - company: <a href='https://www.scienceofintelligence.de/'>Research Cluster "Science of Intelligence"</a>
         position: PhD Student Member
         location: Berlin, Germany
