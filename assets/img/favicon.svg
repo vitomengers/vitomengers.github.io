@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Vito Mengers - site favicon: interlocked "VM" monogram, with the V (site
+     accent #b509ac) overlaying the white M for a dynamic crossing, on a dark
+     tile with transparent corners. Letters outlined to paths (font-independent). -->
+<svg
+   viewBox="0 0 128 128"
+   width="128"
+   height="128"
+   version="1.1"
+   id="svg8"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <rect
+     width="128"
+     height="128"
+     rx="28"
+     fill="#0e0f13"
+     id="rect2" />
+  <g
+     aria-label="M"
+     id="text4"
+     style="font-weight:900;font-size:76px;font-family:'Roboto Black', Arial, sans-serif;fill:#ffffff">
+    <path
+       d="M 79.25,74.560547 91.310547,36.96875 H 108.41797 V 91 H 95.355469 V 78.382812 L 96.617187,52.554687 83.554687,91 h -8.609375 l -13.0625,-38.445313 1.261719,25.828125 V 91 H 50.119141 V 36.96875 h 17.070312 z"
+       id="path14" />
+  </g>
+  <g
+     aria-label="V"
+     id="text6"
+     style="font-weight:900;font-size:76px;font-family:'Roboto Black', Arial, sans-serif;fill:#b509ac">
+    <path
+       d="M 58.394531,36.96875 40.173828,91 H 25.960937 L 7.8515625,36.96875 H 22.361328 L 33.085937,76.378906 43.810547,36.96875 Z"
+       id="path17" />
+  </g>
+</svg>

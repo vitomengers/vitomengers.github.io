@@ -1,14 +1,9 @@
 name: Render a CV
+# NOTE: The site's downloadable CV is produced by the custom LaTeX pipeline in
+# build-cv.yml. This theme-provided RenderCV (Typst) workflow is kept for
+# reference but its automatic push trigger is disabled so the two do not fight
+# over commits. Run it manually from the Actions tab if you ever want it.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
   workflow_call:
   workflow_dispatch:
 permissions:

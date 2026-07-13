@@ -35,6 +35,14 @@ layout: default
     {% if page.description %}
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
+    {% if page.cv_pdf %}
+      <p class="post-description" style="font-size: 0.85rem; opacity: 0.7;">
+        <i class="fa-solid fa-robot"></i>
+        This CV — both the version shown here and the downloadable
+        <i class="fa-solid fa-file-pdf"></i> PDF — is automatically generated from the content of
+        this website and rebuilt whenever new work is added.
+      </p>
+    {% endif %}
   </header>
 
   <article>

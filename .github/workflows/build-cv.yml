@@ -1,0 +1,79 @@
+name: Build LaTeX CV
+
+# Regenerates assets/cv/vito_mengers_cv.tex from the repository's own data
+# (_data/cv.yml, _bibliography/papers.bib and the _teachings/_talks/_outreach
+# collections), compiles it to assets/pdf/vito_mengers_cv.pdf, and commits the
+# result back. The commit only touches assets/**, so it triggers "Deploy site"
+# (which republishes the PDF) but NOT this workflow again -- no loop.
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - "_data/cv.yml"
+      - "_bibliography/**"
+      - "_teachings/**"
+      - "_talks/**"
+      - "_outreach/**"
+      - "_data/socials.yml"
+      - "bin/generate_cv.py"
+      - ".github/workflows/build-cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-cv-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Generate LaTeX source
+        run: python3 bin/generate_cv.py
+
+      - name: Compile PDF (TeX Live)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: vito_mengers_cv.tex
+          working_directory: assets/cv
+          latexmk_use_lualatex: false
+
+      - name: Move PDF to assets/pdf
+        run: |
+          mkdir -p assets/pdf
+          mv assets/cv/vito_mengers_cv.pdf assets/pdf/vito_mengers_cv.pdf
+
+      - name: Upload PDF as build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdf
+          path: assets/pdf/vito_mengers_cv.pdf
+
+      - name: Commit updated CV
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/cv/vito_mengers_cv.tex assets/pdf/vito_mengers_cv.pdf
+          if git diff --staged --quiet; then
+            echo "CV is unchanged; nothing to commit."
+          else
+            git commit -m "chore: rebuild CV from repository data"
+            git pull --rebase --autostash origin ${GITHUB_REF_NAME}
+            git push
+          fi

@@ -5,6 +5,13 @@ cv:
   location: Berlin, Germany
   image: ""
 
+  # Short research summary shown at the top of the generated LaTeX CV.
+  # Separate paragraphs with a blank line. Edit freely -- this is your voice.
+  summary: |
+    My research centers on interconnected recursive estimators—systems that continuously refine internal models based on sensory input. Initially explored for robust robotic perception, I demonstrated that these estimators can also drive action selection through gradient descent. This tight coupling of perception and action lets intelligent agents both react adaptively to environmental changes and actively probe their surroundings to improve perception.
+
+    Beyond robotics, I study these systems as a model for biological behavior, showing that the same architecture can capture processes such as human visual attention (e.g., scanpath generation in natural videos) and collective behavior. The resulting systems are rich, robust, and explainable, offering insight into the interactions between recursive modules—both as computational tools and as models of cognitive mechanisms.
+
   social_networks:
     - network: LinkedIn
       username: example
@@ -14,10 +21,11 @@ cv:
       - institution: <a href='https://www.tu.berlin/robotics'>TU Berlin</a> / <a href='https://www.scienceofintelligence.de/'>Science of Intelligence</a>
         location: Berlin, Germany
         area: Robotics & Interdisciplinary Intelligence Research
-        studyType: PhD (ongoing)
+        studyType: PhD
         start_date: 2021
         end_date: ""
         score: ""
+        summary: Expected submission -- late 2026 / early 2027.
           
       - institution: <a href='https://www.tu.berlin'>TU Berlin</a>
         location: Berlin, Germany
@@ -46,9 +54,7 @@ cv:
         start_date: 2021
         end_date: ""
         summary: Developing computational models of intelligent behavior for robots. Furthermore, involved in teaching of multiple masters-level courses on robotics.
-         
 
-    Volunteer:
       - company: <a href='https://www.scienceofintelligence.de/'>Research Cluster "Science of Intelligence"</a>
         position: PhD Student Member
         location: Berlin, Germany
@@ -76,22 +82,18 @@ cv:
       - position: Submissions Chair & Publication Chair
         company: <a href='https://sab2026.scioi.de/'>18th International Conference on the Simulation of Adaptive Behavior (SAB 2026) </a>
         start_date: 2026
-        end_date: ""
         location: Berlin, Germany
       - position: Workshop Co-Organizer
         company: <a href='https://sites.google.com/view/roboacoustics'>1st Workshop on Acoustic Sensing and Representations for Robotics (RoboAcoustics) at ICRA25</a>
         start_date: 2025
-        end_date: ""
         location: Atlanta, GA, USA
       - position: Co-Organizer -- Responsible for Poster Sessions
         company: <a href='https://www.scienceofintelligence.de/summerschool/'>SCIoI & ISAB Summerschool</a>
         start_date: 2023
-        end_date: ""
         location: Berlin, Germany
       - position: Co-Organizer
         company: <a href='https://www.scienceofintelligence.de/'>3rd PhD-PostDoc Symposium of "Science of Intelligence"</a>
         start_date: 2022
-        end_date: ""
         location: Berlin, Germany
       - position: Regular Reviewer
         company: IEEE International Conference on Robotics and Automation (ICRA), Robotics Science and Systems (RSS), International Conference on Simulation of Adaptive Behavior (SAB), Robotics and Automation Letters (RAL), International Conference on Intelligent Robots and Systems (IROS)

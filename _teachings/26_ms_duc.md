@@ -16,7 +16,7 @@ Collective behavior in animal groups arises from local interactions under limite
 
 ## Related Publication
 
-Publication pending.
+Accepted at SAB26.
 
 ## More Information
 

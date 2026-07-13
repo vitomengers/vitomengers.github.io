@@ -10,6 +10,14 @@ _site
 .venv
 assets/libs/
 assets/rendercv/rendercv_output/*.typ
+# LaTeX CV build artifacts. The generated .tex (assets/cv) and the compiled
+# PDF (assets/pdf/vito_mengers_cv.pdf) are committed; everything else is local.
+assets/cv/*.aux
+assets/cv/*.fdb_latexmk
+assets/cv/*.fls
+assets/cv/*.log
+assets/cv/*.out
+assets/cv/*.pdf
 Gemfile.lock
 node_modules/
 vendor

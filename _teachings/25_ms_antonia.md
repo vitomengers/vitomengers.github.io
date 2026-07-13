@@ -16,7 +16,7 @@ We examine AICON, a previously introduced method where we use interconnected com
 
 ## Related Publication
 
-Publication pending.
+Accepted at SAB26.
 
 ## More Information
 
