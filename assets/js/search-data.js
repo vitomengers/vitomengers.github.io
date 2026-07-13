@@ -218,6 +218,9 @@ ninja.data = [{
           section: "Talks",},{id: "talks-poster-icra26-coupled-particle-filters-for-robust-affordance-estimation-together-with-patrick-lowin",
           title: 'Poster @ ICRA26 Coupled Particle Filters for Robust Affordance Estimation (Together with Patrick...',
           description: "",
+          section: "Talks",},{id: "talks-poster-grc26-when-gradients-are-enough-non-stationary-potential-fields-for-reactive-control",
+          title: 'Poster @ GRC26 When Gradients Are Enough: Non-Stationary Potential Fields for Reactive Control...',
+          description: "",
           section: "Talks",},{id: "teachings-responsible-for-exercises-basics-of-robot-control",
           title: 'Responsible for Exercises — Basics of Robot Control',
           description: "Exercise instructor and assessor for course &quot;Robotics&quot;.",
@@ -288,6 +291,11 @@ ninja.data = [{
           description: "Supervised and Examined by Oliver Brock &amp; Pawel Romanczuk",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/26_ms_duc/";
+            },},{id: "teachings-advisor-and-organizer-course-quot-robotics-seminar-quot",
+          title: 'Advisor and Organizer — Course &amp;quot;Robotics Seminar&amp;quot;',
+          description: "Administrative Organization, Overarching Topic Conception, and Supervising student presentations and writing, facilitated seminar discussions.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/26_robotics_seminar/";
             },},{
         id: 'social-email',
         title: 'email',

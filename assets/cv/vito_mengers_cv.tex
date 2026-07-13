@@ -1,0 +1,388 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.7cm,top=1.4cm,bottom=1.6cm]{geometry}
+\usepackage{lmodern}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\definecolor{accent}{HTML}{006400}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,
+  pdftitle={Vito Mengers -- Curriculum Vitae},pdfauthor={Vito Mengers}}
+
+\setlength{\parindent}{0pt}
+\linespread{1.06}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}  % footnote marker "*" for equal contribution
+
+% Footer on every page: make clear this CV is auto-generated from the website.
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\footnotesize\color{black!45}This CV was automatically generated from the content of \href{https://vitomengers.github.io/cv/}{vitomengers.github.io} on 13 July 2026.}
+
+\titleformat{\section}{\normalsize\bfseries\color{accent}\scshape}{}{0em}{}%
+  [{\color{accent!70!black}\titlerule[0.7pt]}]
+\titlespacing*{\section}{0pt}{1.3em}{0.6em}
+
+% Shared list style for publications, talks, etc. -- roomy item spacing.
+\newenvironment{cvlist}
+  {\begin{itemize}[leftmargin=1.3em,itemsep=6pt,parsep=1pt,topsep=4pt]}
+  {\end{itemize}}
+
+
+
+\begin{document}
+
+\begin{center}
+  {\Huge\bfseries\color{accent} Vito Mengers}\\[0.35em]
+  {\large PhD Student in Robotics \& Interdisciplinary Intelligence Research}\\[0.5em]
+  {\small \href{mailto:v.mengers@tu-berlin.de}{v.mengers@tu-berlin.de} \; \textbullet\; Berlin, Germany \; \textbullet\; \href{https://vitomengers.github.io}{vitomengers.github.io} \; \textbullet\; \href{https://scholar.google.com/citations?user=4Yp4lRwAAAAJ}{Google Scholar} \; \textbullet\; \href{https://www.linkedin.com/in/vito-mengers}{LinkedIn}}
+\end{center}
+\vspace{0.4em}
+
+\section{Research}
+{\small My research centers on interconnected recursive estimators---systems that continuously refine internal models based on sensory input. Initially explored for robust robotic perception, I demonstrated that these estimators can also drive action selection through gradient descent. This tight coupling of perception and action lets intelligent agents both react adaptively to environmental changes and actively probe their surroundings to improve perception.}\par\smallskip
+{\small Beyond robotics, I study these systems as a model for biological behavior, showing that the same architecture can capture processes such as human visual attention (e.g., scanpath generation in natural videos) and collective behavior. The resulting systems are rich, robust, and explainable, offering insight into the interactions between recursive modules---both as computational tools and as models of cognitive mechanisms.}\par\smallskip
+
+\section{Education}
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{\href{https://www.tu.berlin/robotics}{TU Berlin} / \href{https://www.scienceofintelligence.de/}{Science of Intelligence}}\par
+\vspace{0.15em}{\small\itshape PhD -- Robotics \& Interdisciplinary Intelligence Research}\par
+\vspace{0.2em}{\small Expected submission -- late 2026 / early 2027.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{Berlin, Germany \; 2021--present}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{\href{https://www.tu.berlin}{TU Berlin}}\par
+\vspace{0.15em}{\small\itshape M.Sc. -- Computer Engineering}\par
+\vspace{0.2em}\begin{itemize}[leftmargin=1.3em,itemsep=1pt,parsep=0pt,topsep=1pt]
+  \item Grade -- 1.1 (ECTS Rank A)
+  \item Honors -- One of the best graduates of the year
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{Berlin, Germany \; 2018--2021}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{\href{https://www.tu.berlin}{TU Berlin}}\par
+\vspace{0.15em}{\small\itshape B.Sc. -- Computer Engineering}\par
+\vspace{0.2em}\begin{itemize}[leftmargin=1.3em,itemsep=1pt,parsep=0pt,topsep=1pt]
+  \item Grade -- 1.3 (ECTS Rank A)
+  \item Honors -- One of the best graduates of the year
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{Berlin, Germany \; 2015--2019}}\end{minipage}
+\par\vspace{0.55em}
+
+
+\section{Journal Articles}
+\begin{cvlist}
+  \item \textbf{V. Mengers}\footnote{Equal contribution.}, N. Roth\textsuperscript{*}, O. Brock, K. Obermayer, and M. Rolfs. \textit{A robotics-inspired scanpath model reveals the importance of uncertainty and semantic object cues for gaze guidance in dynamic scenes}. Journal of Vision, 2025. \, {\small[\href{https://jov.arvojournals.org/article.aspx?articleid=2802570}{PDF}, \href{https://rbo.gitlab-pages.tu-berlin.de/papers/mengers-jov-25/}{Project Page}]}
+  \item \textbf{V. Mengers}\textsuperscript{*}, M. Raoufi\textsuperscript{*}, O. Brock, H. Hamann, and P. Romanczuk. \textit{Leveraging uncertainty in collective opinion dynamics with heterogeneity}. Scientific Reports, 2024. \, {\small[\href{https://www.nature.com/articles/s41598-024-78856-8}{PDF}, \href{https://rbo.gitlab-pages.tu-berlin.de/papers/mengers-sci-rep-25/}{Project Page}]}
+\end{cvlist}
+\section{Conference Papers}
+\begin{cvlist}
+  \item P. Lowin, \textbf{V. Mengers}, and O. Brock. \textit{Coupled Particle Filters for Robust Affordance Estimation}. International Conference on Robotics and Automation (ICRA), 2026. \, {\small[\href{https://arxiv.org/pdf/2603.15223}{PDF}]}
+  \item \textbf{V. Mengers}, B. D. Cao, and O. Brock. \textit{A Mechanistic Model for Collective Motion from Sensorimotor Regularities}. International Conference on the Simulation of Adaptive Behavior (SAB), 2026. \, {\small[\href{https://arxiv.org/pdf/2605.16522}{PDF}]}
+  \item M. Migacev\textsuperscript{*}, \textbf{V. Mengers}\textsuperscript{*}, A. Köngeter, and O. Brock. \textit{No Plan, Yet Human: A Reactive Robotics Model Predicts Human Planning Failures on a Clinical Task}. International Conference on the Simulation of Adaptive Behavior (SAB), 2026. \, {\small[\href{https://arxiv.org/pdf/2605.16514}{PDF}]}
+  \item \textbf{V. Mengers} and O. Brock. \textit{No Plan but Everything Under Control: Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent}. International Conference on Robotics and Automation (ICRA), 2025. \, {\small[\href{https://arxiv.org/pdf/2503.01732}{PDF}, \href{https://rbo.gitlab-pages.tu-berlin.de/papers/mengers-icra-25/}{Project Page}]} \, {\small\textcolor{accent}{\textbf{ICRA Best Paper in Planning and Control}}}
+  \item A. Pfisterer\textsuperscript{*}, X. Li\textsuperscript{*}, \textbf{V. Mengers}, and O. Brock. \textit{A Helping (Human) Hand in Kinematic Structure Estimation}. International Conference on Robotics and Automation (ICRA), 2025. \, {\small[\href{https://arxiv.org/pdf/2503.05301}{PDF}, \href{https://rbo.gitlab-pages.tu-berlin.de/papers/pfisterer-li-icra25/}{Project Page}]}
+  \item \textbf{V. Mengers}, A. Battaje, M. Baum, and O. Brock. \textit{Combining Motion and Appearance for Robust Probabilistic Object Segmentation in Real Time}. International Conference on Robotics and Automation (ICRA), 2023. \, {\small[\href{https://www.static.tu.berlin/fileadmin/www/10002220/Publications/Mengers-23-ICRA.pdf}{PDF}]}
+\end{cvlist}
+\section{Workshop Papers \& Extended Abstracts}
+\begin{cvlist}
+  \item \textbf{V. Mengers} and O. Brock. \textit{When Gradients Are Enough: Non-Stationary Potential Fields for Reactive Control}. German Robotics Conference (GRC), 2026. \, {\small[\href{https://www.static.tu.berlin/fileadmin/www/10002220/Publications/grc26_when_gradients_are_enough_abstract.pdf}{PDF}]}
+  \item \textbf{V. Mengers}\textsuperscript{*}, A. Koenig\textsuperscript{*}, X. Li\textsuperscript{*}, A. Sieler, A. Battaje, and O. Brock. \textit{Stop Merging, Start Separating: Why Merging Learning and Modeling Won't Solve Manipulation but Separating the General From the Specific Will}. ICRA Workshop: Learning Meets Model-Based Methods for Contact-Rich Manipulation, 2025. \, {\small[\href{https://www.static.tu.berlin/fileadmin/www/10002220/Publications/30_Stop_Merging_Start_Separating.pdf}{PDF}]}
+  \item \textbf{V. Mengers}\textsuperscript{*}, A. Battaje\textsuperscript{*}, and O. Brock. \textit{AICON: A Representation for Adaptive Behavior}. German Robotics Conference (GRC), 2025. \, {\small[\href{https://www.static.tu.berlin/fileadmin/www/10002220/Publications/Mengers-Battaje-GRC-25.pdf}{PDF}]}
+  \item A. Pfisterer\textsuperscript{*}, X. Li\textsuperscript{*}, \textbf{V. Mengers}, and O. Brock. \textit{A Handy Solution to Kinematic Structure Estimation}. German Robotics Conference (GRC), 2025. \, {\small[\href{https://www.tu.berlin/fileadmin/www/10002220/Publications/Pfisterer_Li_et_al_GRC25.pdf}{PDF}]}
+\end{cvlist}
+\section{Preprints \& Under Review}
+\begin{cvlist}
+  \item \textbf{V. Mengers} and O. Brock. \textit{Riding the Shifting Potential: When Reactive Control Suffices for Multi-Goal Behavior}. arXiv Preprint, 2026. \, {\small[\href{https://arxiv.org/pdf/2605.27314}{PDF}]}
+  \item A. Battaje, M. Bernhard, \textbf{V. Mengers}, and O. Brock. \textit{Building Generalization Into Behavior Generation Via Adaptive Compositions of Regularities}. arXiv Preprint, 2026. \, {\small[\href{https://arxiv.org/pdf/2605.31110}{PDF}]}
+  \item E. Sebastián, A. Pfisterer, \textbf{V. Mengers}, O. Brock, and A. Prorok. \textit{World-Task Factorization for Robot Learning}. arXiv Preprint, 2026. \, {\small[\href{https://arxiv.org/pdf/2606.02027}{PDF}]}
+\end{cvlist}
+
+\section{Experience}
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{\href{https://www.tu.berlin/robotics}{Robotics and Biology Lab (Oliver Brock) -- TU Berlin}}\par
+\vspace{0.15em}{\small\itshape Research Assistant}\par
+\vspace{0.2em}{\small Developing computational models of intelligent behavior for robots. Furthermore, involved in teaching of multiple masters-level courses on robotics.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{Berlin, Germany \; 2021--present}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{\href{https://www.scienceofintelligence.de/}{Research Cluster "Science of Intelligence"}}\par
+\vspace{0.15em}{\small\itshape PhD Student Member}\par
+\vspace{0.2em}{\small Developing computational models of intelligent behavior in biology. Furthermore, involved in organization of multiple interdisciplinary projects, events, as well as being part in the ethics committee of the cluster.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{Berlin, Germany \; 2021--present}}\end{minipage}
+\par\vspace{0.55em}
+
+
+\section{Awards and Scholarships}
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{IEEE ICRA Best Paper Award on Planning and Control}\par
+\vspace{0.15em}{\small\itshape Finalist for Best Paper (Overall), Best Student Paper, and Best Paper on Robot Learning.\newline \underline{Vito Mengers} \& Oliver Brock, \emph{\href{https://rbo.gitlab-pages.tu-berlin.de/papers/mengers-icra-25/}{No Plan but Everything under Control - Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent}}}\par
+\vspace{0.2em}{\small \emph{"For challenging the planning paradigm by introducing a feedback-driven method that solves sequential tasks through continuous adaptation."}}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2025}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Studienstiftung des deutschen Volkes Scholarship (4 years)}\par
+\vspace{0.15em}{\small\itshape \href{https://www.studienstiftung.de/}{Studienstiftung des deutschen Volkes} (German Academic Scholarship Foundation)}\par
+\vspace{0.2em}{\small Prestigious German national scholarship awarded to highly talented students demonstrating exceptional academic achievement and societal commitment.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2018}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Deutschlandstipendium Scholarship (2 years)}\par
+\vspace{0.15em}{\small\itshape \href{https://www.deutschlandstipendium.de/deutschlandstipendium/de/home/home_node.html}{Deutschlandstipendium} (awarded by TU Berlin, financed by the German Federal Government, Siemens, and CARIAD)}\par
+\vspace{0.2em}{\small Merit-based scholarship awarded for excellent academic performance and potential, funded jointly by the German Federal Government and private industry partners.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2016}}\end{minipage}
+\par\vspace{0.55em}
+
+
+\section{Academic Service}
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Submissions Chair \& Publication Chair}\par
+\vspace{0.15em}{\small\itshape \href{https://sab2026.scioi.de/}{18th International Conference on the Simulation of Adaptive Behavior (SAB 2026) }}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{Berlin, Germany \; 2026}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Workshop Co-Organizer}\par
+\vspace{0.15em}{\small\itshape \href{https://sites.google.com/view/roboacoustics}{1st Workshop on Acoustic Sensing and Representations for Robotics (RoboAcoustics) at ICRA25}}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{Atlanta, GA, USA \; 2025}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Co-Organizer -- Responsible for Poster Sessions}\par
+\vspace{0.15em}{\small\itshape \href{https://www.scienceofintelligence.de/summerschool/}{SCIoI \& ISAB Summerschool}}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{Berlin, Germany \; 2023}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Co-Organizer}\par
+\vspace{0.15em}{\small\itshape \href{https://www.scienceofintelligence.de/}{3rd PhD-PostDoc Symposium of "Science of Intelligence"}}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{Berlin, Germany \; 2022}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Regular Reviewer}\par
+\vspace{0.15em}{\small\itshape IEEE International Conference on Robotics and Automation (ICRA), Robotics Science and Systems (RSS), International Conference on Simulation of Adaptive Behavior (SAB), Robotics and Automation Letters (RAL), International Conference on Intelligent Robots and Systems (IROS)}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{}}\end{minipage}
+\par\vspace{0.55em}
+
+
+\section{Student Supervision}
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Bao Duc Cao \, {\normalfont(Master's Thesis)}}\par
+\vspace{0.15em}{\small\itshape Supervised and Examined by Oliver Brock \& Pawel Romanczuk}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2026}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Antonia Köngeter \, {\normalfont(Master's Thesis)}}\par
+\vspace{0.15em}{\small\itshape Supervised and Examined by Oliver Brock \& Eva Wiese}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2025}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Malte Bernhard \, {\normalfont(Master's Thesis)}}\par
+\vspace{0.15em}{\small\itshape Co-Advised with Aravind Battaje \& Alexander Koenig; Supervised and Examined by Oliver Brock \& Marc Toussaint}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2025}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Adrian Pfisterer \, {\normalfont(Master's Thesis)}}\par
+\vspace{0.15em}{\small\itshape Co-Advised with Xing Li; Supervised and Examined by Oliver Brock \& Guillermo Gallego; \textbf{Winner of the \href{https://www.scienceofintelligence.de/scioi-supervised-master-thesis-receives-rolf-niedermeier-award/?utm_source=brevo&utm_campaign=Science\%20of\%20Intelligence\%20Newsletter\%205February\%2025}{Rolf-Niedermeier-Award}}}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2024}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Patrick Lowin \, {\normalfont(Master's Thesis)}}\par
+\vspace{0.15em}{\small\itshape Supervised and Examined by Oliver Brock \& Guillermo Gallego}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2024}}\end{minipage}
+\par\vspace{0.55em}
+
+\section{Teaching}
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Advisor and Organizer --- Course "Robotics Seminar"}\par
+\vspace{0.15em}{\small\itshape Administrative Organization, Overarching Topic Conception, and Supervising student presentations and writing, facilitated seminar discussions.}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2026}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Responsible for Exercises \& Lecture --- Motion Planning}\par
+\vspace{0.15em}{\small\itshape Lecture delivery and exercise supervision in course "Robotics".}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2025}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Advisor --- Course "Robotics Project"}\par
+\vspace{0.15em}{\small\itshape Supervised student projects, guided presentations and report writing, provided technical mentorship.}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2025}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Responsible for Exercises \& Lecture --- Advanced Robot Control}\par
+\vspace{0.15em}{\small\itshape Lecture delivery and exercise supervision in course "Robotics".}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2024}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Advisor --- Course "Robotics Seminar"}\par
+\vspace{0.15em}{\small\itshape Supervised student presentations and writing, facilitated seminar discussions.}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2024}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Responsible for Exercises --- Visual Servoing}\par
+\vspace{0.15em}{\small\itshape Exercise instructor and assessor for course "Robotics".}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2023}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Responsible for Exercises --- Recursive Estimation}\par
+\vspace{0.15em}{\small\itshape Exercise instructor and assessor for course "Robotics".}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2022}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Advisor --- Course "Robotics Project"}\par
+\vspace{0.15em}{\small\itshape Supervised student projects, guided presentations and report writing, provided technical mentorship.}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2022}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Advisor --- Course "Robotics Seminar"}\par
+\vspace{0.15em}{\small\itshape Supervised student presentations and writing, facilitated seminar discussions.}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2022}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Responsible for Exercises --- Basics of Robot Control}\par
+\vspace{0.15em}{\small\itshape Exercise instructor and assessor for course "Robotics".}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2021}}\end{minipage}
+\par\vspace{0.55em}
+
+
+\section{Talks \& Posters}
+\begin{cvlist}
+  \item \textbf{Poster} @ \href{https://robotics-institute-germany.de/event/grc/}{GRC26} --- \emph{When Gradients Are Enough: Non-Stationary Potential Fields for Reactive Control} \, {\small\textcolor{black!55}{(2026)}}
+  \item \textbf{Poster} @ \href{https://2026.ieee-icra.org/}{ICRA26} --- \emph{Coupled Particle Filters for Robust Affordance Estimation} (Together with Patrick Lowin) \, {\small\textcolor{black!55}{(2026)}}
+  \item \textbf{Poster} @ \href{https://sites.google.com/view/robust-planning-icra2025-ws}{ICRA25 Workshop "Beyond the Lab: Robust Planning and Control in Real World Scenarios"} --- \emph{No Plan but Everything Under Control} \, {\small\textcolor{black!55}{(2025)}}
+  \item \textbf{Talk \& Poster} @ \href{https://2025.ieee-icra.org/}{ICRA25} --- \emph{No Plan but Everything Under Control: Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent} \, {\small\textcolor{black!55}{(2025)}}
+  \item \textbf{Poster} @ \href{https://contact-rich.github.io/}{ICRA25 Workshop "Learning Meets Model-Based Methods for Contact-Rich Manipulation"} --- \emph{Stop Merging, Start Separating: Why Merging Learning and Modeling Won't Solve Manipulation but Separating the General From the Specific Will} \, {\small\textcolor{black!55}{(2025)}}
+  \item \textbf{Poster} @ \href{https://robotics-institute-germany.de/event/first-german-robotics-conference/}{GRC25} --- \emph{AICON: A Representation for Adaptive Behavior} \, {\small\textcolor{black!55}{(2025)}}
+  \item \textbf{Poster} @ \href{https://robotics-institute-germany.de/event/first-german-robotics-conference/}{GRC25} --- \emph{A Handy Solution to Kinematic Structure Estimation} -- Together with Adrian Pfisterer \, {\small\textcolor{black!55}{(2025)}}
+  \item \textbf{Talk \& Poster} @ \href{https://www.scienceofintelligence.de/}{SCIoI's Scientific Networking Days} --- \emph{Gradient Descent through Interconnected Recursive Estimators} \, {\small\textcolor{black!55}{(2024)}}
+  \item \textbf{Talk} @ \href{https://netsci2024.com/en/program}{NetSci24} --- \emph{Centrality-Certainty Correlation in Heterogeneous Opinion Dynamics} -- Together with Mohsen Raoufi \, {\small\textcolor{black!55}{(2024)}}
+  \item \textbf{Talk} @ \href{https://www.scienceofintelligence.de/event/thursday-morning-talk-vito-mengers-project-35-differentiable-interconnected-recursive-estimation-as-a-principle-of-intelligence/}{SCIoI's Thursday Morning Talks} --- \emph{Principles at Play: What is Intelligence?} -- Together with Aravind Battaje \, {\small\textcolor{black!55}{(2023)}}
+  \item \textbf{Talk} @ \href{https://www.scienceofintelligence.de/}{SCIoI's Scientific Networking Days} --- \emph{Interdisciplinary Applications of Interconnected Recursive Estimators} \, {\small\textcolor{black!55}{(2023)}}
+  \item \textbf{Invited Talk} @ \href{https://iridia.ulb.ac.be/seminars/index.php?x=00272}{IRIDIA Seminar (Université Libre de Bruxelles)} --- \emph{From Segmentation to Collaboration: Exploring the Role of Robust Estimation of Object Segmentation in Achieving Robust Collective Estimation} \, {\small\textcolor{black!55}{(2023)}}
+  \item \textbf{Poster} @ \href{https://ewh.ieee.org/soc/ras/conf/fullysponsored/icra/ICRA\%202023/www.icra2023.org/welcome.html}{ICRA23} --- \emph{Combining Motion and Appearance for Robust Probabilistic Object Segmentation in Real Time} -- Together with Manuel Baum \, {\small\textcolor{black!55}{(2023)}}
+  \item \textbf{Talk} @ \href{https://www.scienceofintelligence.de/}{SCIoI's Scientific Networking Days} --- \emph{Differentiable Interconnected Recursive Estimation} \, {\small\textcolor{black!55}{(2022)}}
+\end{cvlist}
+
+\section{Outreach \& Public Engagement}
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Podcast Interview About My Research (in German)}\par
+\vspace{0.15em}{\small\itshape Podcast of the DFG (German Research Foundation) "Exzellent Erklärt"}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2025}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Science Slam at the Berlin Science Week}\par
+\vspace{0.15em}{\small\itshape Title of my Slam -- "Why my robot is still stupid"}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2025}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Interactive Presentation and Demo at the Alexander von Humboldt Foundation's Annual Alumni Event}\par
+\vspace{0.15em}{\small\itshape Interdisciplinary Exchanges \& Public Outreach}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2024}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Girl's Day at Science of Intelligence}\par
+\vspace{0.15em}{\small\itshape Full-day event to inspire German school girls to pursue a career in science}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2023}}\end{minipage}
+\par\vspace{0.55em}
+
+\noindent
+\begin{minipage}[t]{0.73\linewidth}\raggedright\exhyphenpenalty=10000\relax
+\textbf{Participation in ``I'm a Scientist -- Get Me Out of Here!''}\par
+\vspace{0.15em}{\small\itshape Participation in a nationwide dialogue initiative connecting school students directly with researchers}\par
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\linewidth}\raggedleft{\small\textcolor{black!55}{2022}}\end{minipage}
+\par\vspace{0.55em}
+
+
+\end{document}
