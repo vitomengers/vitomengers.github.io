@@ -25,7 +25,7 @@ cv:
         start_date: 2021
         end_date: ""
         score: ""
-        summary: Expected submission -- late 2026 / early 2027.
+        summary: Expected submission -- March 2027.
           
       - institution: <a href='https://www.tu.berlin'>TU Berlin</a>
         location: Berlin, Germany
@@ -99,5 +99,5 @@ cv:
         start_date: 2022
         location: Berlin, Germany
       - position: Regular Reviewer
-        company: IEEE International Conference on Robotics and Automation (ICRA), Robotics Science and Systems (RSS), International Conference on Simulation of Adaptive Behavior (SAB), Robotics and Automation Letters (RAL), International Conference on Intelligent Robots and Systems (IROS)
+        company: IEEE International Conference on Robotics and Automation (ICRA), Robotics Science and Systems (RSS), International Conference on Simulation of Adaptive Behavior (SAB), IEEE Robotics and Automation Letters (RAL), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society (AIES), Conference on Robot Learning (CoRL)
 
