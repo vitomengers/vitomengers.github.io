@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-08-24'
 papers:
   4Yp4lRwAAAAJ:IjCSPb-OGe4C:
-    citations: 11
+    citations: 12
     title: 'No Plan but Everything Under Control: Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent'
     year: '2025'
   4Yp4lRwAAAAJ:LkGwnXOMwfcC:
@@ -10,7 +10,7 @@ papers:
     title: 'Riding the Shifting Potential: When Reactive Control Suffices for Multi-Goal Behavior'
     year: '2026'
   4Yp4lRwAAAAJ:Se3iqnhoufwC:
-    citations: 0
+    citations: 1
     title: World-Task Factorization for Robot Learning
     year: '2026'
   4Yp4lRwAAAAJ:Tyk-4Ss8FVUC:
@@ -18,7 +18,7 @@ papers:
     title: 'AICON: A Representation for Adaptive Behavior'
     year: '2025'
   4Yp4lRwAAAAJ:UeHWp8X0CEIC:
-    citations: 16
+    citations: 18
     title: A robotics-inspired scanpath model reveals the importance of uncertainty and semantic object cues for gaze guidance in dynamic scenes
     year: '2025'
   4Yp4lRwAAAAJ:W7OEmFMy1HYC:
@@ -38,11 +38,11 @@ papers:
     title: A Mechanistic Model for Collective Motion from Sensorimotor Regularities
     year: '2026'
   4Yp4lRwAAAAJ:eQOLeE2rZwMC:
-    citations: 0
+    citations: 1
     title: Coupled Particle Filters for Robust Affordance Estimation
     year: '2026'
   4Yp4lRwAAAAJ:roLk4NBRz8UC:
-    citations: 0
+    citations: 1
     title: Building Generalization Into Behavior Generation Via Adaptive Compositions of Regularities
     year: '2026'
   4Yp4lRwAAAAJ:u-x6o8ySG0sC:
@@ -50,7 +50,7 @@ papers:
     title: Leveraging uncertainty in collective opinion dynamics with heterogeneity
     year: '2024'
   4Yp4lRwAAAAJ:u5HHmVD_uO8C:
-    citations: 12
+    citations: 14
     title: Combining Motion and Appearance for Robust Probabilistic Object Segmentation in Real Time
     year: '2023'
   4Yp4lRwAAAAJ:ufrVoPGSRksC:
@@ -58,6 +58,6 @@ papers:
     title: 'No Plan, Yet Human: A Reactive Robotics Model Predicts Human Planning Failures on a Clinical Task'
     year: '2026'
   4Yp4lRwAAAAJ:zYLM7Y9cAGgC:
-    citations: 4
+    citations: 5
     title: A Helping (Human) Hand in Kinematic Structure Estimation
     year: '2025'
