@@ -21,3 +21,7 @@
 "ICRA Workshop":
   color: "#E56B70"
   url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
+  
+"AIES":
+  url: https://www.aies-conference.com/
+  color: "#00369f"
