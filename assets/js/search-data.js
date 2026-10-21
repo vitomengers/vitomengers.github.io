@@ -35,7 +35,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/talks&outreach/";
+            window.location.href = "/talks/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -44,34 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-official-start-of-this-webpage",
+        },{id: "news-official-start-of-this-webpage",
           title: 'Official start of this webpage 🎉',
           description: "",
           section: "News",},{id: "news-our-paper-a-robotics-inspired-scanpath-model-reveals-the-importance-of-uncertainty-and-semantic-object-cues-for-gaze-guidance-in-dynamic-scenes-was-accepted-at-the-journal-of-vision",
@@ -180,11 +153,6 @@ ninja.data = [{
           description: "Title of my Slam -- &quot;Why my robot is still stupid&quot;",
           section: "Outreach",handler: () => {
               window.location.href = "/outreach/25_science_slam/";
-            },},{id: "projects-project-10",
-          title: 'project 10',
-          description: "A project with an introduction section",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/10_project/";
             },},{id: "talks-talk-scioi-s-scientific-networking-days-differentiable-interconnected-recursive-estimation",
           title: 'Talk @ SCIoI’s Scientific Networking Days Differentiable Interconnected Recursive Estimation',
           description: "",
@@ -221,11 +189,11 @@ ninja.data = [{
           section: "Talks",},{id: "talks-poster-icra25-workshop-beyond-the-lab-robust-planning-and-control-in-real-world-scenarios-no-plan-but-everything-under-control",
           title: 'Poster @ ICRA25 Workshop “Beyond the Lab: Robust Planning and Control in Real...',
           description: "",
-          section: "Talks",},{id: "talks-poster-icra26-coupled-particle-filters-for-robust-affordance-estimation-together-with-patrick-lowin",
-          title: 'Poster @ ICRA26 Coupled Particle Filters for Robust Affordance Estimation (Together with Patrick...',
-          description: "",
           section: "Talks",},{id: "talks-poster-grc26-when-gradients-are-enough-non-stationary-potential-fields-for-reactive-control",
           title: 'Poster @ GRC26 When Gradients Are Enough: Non-Stationary Potential Fields for Reactive Control...',
+          description: "",
+          section: "Talks",},{id: "talks-poster-icra26-coupled-particle-filters-for-robust-affordance-estimation-together-with-patrick-lowin",
+          title: 'Poster @ ICRA26 Coupled Particle Filters for Robust Affordance Estimation (Together with Patrick...',
           description: "",
           section: "Talks",},{id: "teachings-responsible-for-exercises-basics-of-robot-control",
           title: 'Responsible for Exercises — Basics of Robot Control',
