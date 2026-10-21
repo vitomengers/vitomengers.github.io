@@ -82,8 +82,12 @@ cv:
         summary: Merit-based scholarship awarded for excellent academic performance and potential, funded jointly by the German Federal Government and private industry partners.
     
     Academic Service:
-      - position: Submissions Chair & Publication Chair
-        company: <a href='https://sab2026.scioi.de/'>18th International Conference on the Simulation of Adaptive Behavior (SAB 2026) </a>
+      - position: Submissions Chair & Publication Chair; Co-Editor of the Proceedings <a href='https://link.springer.com/book/10.1007/978-3-032-39953-3'><em>From Animals to Animats 18</em></a> (Springer LNCS 16965 / LNAI)
+        company: <a href='https://sab2026.scioi.de/'>18th International Conference on the Simulation of Adaptive Behavior (SAB 2026)</a>
+        start_date: 2026
+        location: Berlin, Germany
+      - position: Workshop Co-Organizer & Panel Moderator
+        company: <a href='https://rbo.gitlab-pages.tu-berlin.de/pages/sab-conference-2026/'>One Idea, Many Names? Internal Models of the World in Natural and Artificial Systems (Workshop at SAB 2026)</a>
         start_date: 2026
         location: Berlin, Germany
       - position: Workshop Co-Organizer
