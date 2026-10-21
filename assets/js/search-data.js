@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-teaching",
-          title: "Teaching",
-          description: "Teaching and advising experience.",
+        },{id: "nav-teaching-amp-advising",
+          title: "Teaching &amp; Advising",
+          description: "Thesis advising and course teaching at TU Berlin.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -193,7 +193,7 @@ ninja.data = [{
           title: 'Poster @ GRC26 When Gradients Are Enough: Non-Stationary Potential Fields for Reactive Control...',
           description: "",
           section: "Talks",},{id: "talks-poster-icra26-coupled-particle-filters-for-robust-affordance-estimation-together-with-patrick-lowin",
-          title: 'Poster @ ICRA26 Coupled Particle Filters for Robust Affordance Estimation (Together with Patrick...',
+          title: 'Poster @ ICRA26 Coupled Particle Filters for Robust Affordance Estimation – Together with...',
           description: "",
           section: "Talks",},{id: "teachings-responsible-for-exercises-basics-of-robot-control",
           title: 'Responsible for Exercises — Basics of Robot Control',
