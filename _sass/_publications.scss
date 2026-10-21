@@ -1,0 +1,54 @@
+/*******************************************************************************
+ * Publications page intro: venue-type legend and sort/search controls
+ ******************************************************************************/
+
+// Keep in sync with the colors in _data/venues.yml
+$pub-journal-color: #006400;
+$pub-conference-color: #00369f;
+$pub-other-color: #e56b70;
+
+.pub-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+
+  .pub-intro-text {
+    flex: 1 1 22rem;
+  }
+
+  .pub-intro-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+  }
+
+  @media (max-width: 576px) {
+    .pub-intro-controls {
+      align-items: stretch;
+      width: 100%;
+    }
+  }
+}
+
+.pub-type-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  margin-right: 4px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  &.journal {
+    background-color: $pub-journal-color;
+  }
+  &.conference {
+    background-color: $pub-conference-color;
+  }
+  &.other {
+    background-color: $pub-other-color;
+  }
+}

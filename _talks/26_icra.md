@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-06-06
+date: 2026-06-06
 inline: true
 related_posts: false
 year: 2026

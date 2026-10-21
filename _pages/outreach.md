@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /talks&outreach/
+permalink: /talks/
 title: Talks & Outreach
 nav: true
 nav_order: 5
