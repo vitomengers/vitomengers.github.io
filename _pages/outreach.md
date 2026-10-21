@@ -6,13 +6,11 @@ nav: true
 nav_order: 5
 calendar: false
 ---
-### Scientific Talks & Posters
+
+<h2 class="activity-section-title">Scientific Talks & Posters</h2>
 
 {% include talks.liquid %}
 
-<br>
-<br>
-
-### Public Outreach Activities
+<h2 class="activity-section-title">Public Outreach</h2>
 
 {% include outreach.liquid %}

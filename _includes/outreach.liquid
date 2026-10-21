@@ -1,32 +1,24 @@
-{% if site.outreach %}
-  <div class="outreachs">
+{% if site.outreach != blank %}
+  <div class="activity-list">
     {% assign outreach_by_year = site.outreach | sort: 'year' | reverse | group_by: 'year' %}
-
     {% for year_group in outreach_by_year %}
-      <h4 class="year">{{ year_group.name }}</h4>
-      <div class="table-responsive">
-	      <table class="table table-sm table-borderless">
-		{% assign talks = year_group.items %}
-		{% assign talks_limit = talks_size %}
-		{% for item in talks limit: talks_limit %}
-		  <tr>
-		    <!--<th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>-->
-		    <td>
-		      {% if item.inline %}
-		        {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-		      {% else %}
-		        <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-		        {% if item.description %}
-			      <div class="course-description">
-				{{ item.description | markdownify }}
-			      </div>
-			 {% endif %}
-		      {% endif %}
-		    </td>
-		  </tr>
-		{% endfor %}
-	      </table>
-    	   </div>
+      <section class="activity-year">
+        <h3 class="activity-year-label">{{ year_group.name }}</h3>
+        <ul class="activity-items">
+          {% for item in year_group.items %}
+            <li class="activity-item">
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% if item.description %}
+                  <div class="activity-meta">{{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+                {% endif %}
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
     {% endfor %}
   </div>
 {% else %}

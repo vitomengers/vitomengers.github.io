@@ -5,7 +5,7 @@ Sources
 -------
 * ``_data/cv.yml``        -- Education, Experience, Volunteer, Awards, Academic Service
 * ``_bibliography/papers.bib`` -- Publications (grouped by ``papertype``)
-* ``_teachings/*.md``     -- Teaching & supervision
+* ``_teachings/*.md``     -- Teaching & thesis advising
 * ``_talks/*.md``         -- Talks & posters
 * ``_outreach/*.md``      -- Public engagement / outreach
 
@@ -382,14 +382,14 @@ def _thesis_kind(title: str) -> str:
 
 def render_teaching() -> str:
     items = sorted(_collection("_teachings"), key=lambda it: _year_of(it[0]), reverse=True)
-    # Thesis supervision entries carry an `instructor` (the student); course
+    # Thesis advising entries carry an `instructor` (the student); course
     # teaching entries do not.
     supervision = [it for it in items if it[0].get("instructor")]
     courses = [it for it in items if not it[0].get("instructor")]
 
     out = []
     if supervision:
-        out.append(r"\section{Student Supervision}")
+        out.append(r"\section{Thesis Advising}")
         for front, _ in supervision:
             student = html_to_latex(front.get("instructor", ""))
             kind = _thesis_kind(front.get("title", ""))
