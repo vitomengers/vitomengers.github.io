@@ -79,5 +79,7 @@ html[data-theme="dark"] .activity-award {
 
 // Invited talks: accent the leading "Invited Talk" label only
 .activity-item.invited > strong:first-child {
-  color: var(--global-theme-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
