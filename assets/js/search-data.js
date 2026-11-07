@@ -134,6 +134,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-sab26-workshop-one-idea-many-names-internal-models-of-the-world-in-natural-and-artificial-systems-took-place-today-i-co-organized-the-workshop-moderated-the-panel-and-gave-a-talk-on-aicon",
           title: 'Our SAB26 workshop One Idea, Many Names? Internal Models of the World in...',
           description: "",
+          section: "News",},{id: "news-presented-two-papers-at-sab26-applying-aicon-beyond-robotics-without-hand-written-behavior-rules-or-planning-it-produces-the-collective-motion-of-animal-groups-and-predicts-where-human-planning-breaks-down-in-a-clinical-test",
+          title: 'Presented two papers at SAB26 applying AICON beyond robotics: without hand-written behavior rules...',
+          description: "",
           section: "News",},{id: "outreach-participation-in-i-m-a-scientist-get-me-out-of-here",
           title: 'Participation in “I’m a Scientist – Get Me Out of Here!”',
           description: "Participation in a nationwide dialogue initiative connecting school students directly with researchers",
@@ -207,6 +210,9 @@ ninja.data = [{
           section: "Talks",},{id: "talks-talk-sab26-workshop-one-idea-many-names-internal-models-of-the-world-in-natural-and-artificial-systems-active-interconnect-aicon-a-different-type-of-world-model",
           title: 'Talk @ SAB26 Workshop “One Idea, Many Names? Internal Models of the World...',
           description: "",
+          section: "Talks",},{id: "talks-talk-sab26-a-mechanistic-model-for-collective-motion-from-sensorimotor-regularities",
+          title: 'Talk @ SAB26   A Mechanistic Model for Collective Motion from Sensorimotor Regularities',
+          description: "",
           section: "Talks",},{id: "teachings-responsible-for-exercises-basics-of-robot-control",
           title: 'Responsible for Exercises — Basics of Robot Control',
           description: "Exercise instructor and assessor for course &quot;Robotics&quot;.",
@@ -234,7 +240,7 @@ ninja.data = [{
               window.location.href = "/teachings/23_robotics/";
             },},{id: "teachings-advisor-master-thesis-quot-tracking-hand-motion-to-infer-object-motion-constraints-quot",
           title: 'Advisor — Master Thesis &amp;quot;Tracking Hand Motion to Infer Object Motion Constraints&amp;quot;',
-          description: "Co-Advised with Xing Li; Supervised and Examined by Oliver Brock &amp; Guillermo Gallego; **Winner of the Rolf-Niedermeier-Award**",
+          description: "Co-Advised with Xing Li; Supervised and Examined by Oliver Brock &amp; Guillermo Gallego",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/24_ms_adrian/";
             },},{id: "teachings-advisor-master-thesis-quot-estimating-robust-affordances-from-vision-by-combining-multiple-models-quot",
