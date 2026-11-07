@@ -48,12 +48,24 @@ on:
       - "!INSTALL.md"
       - "!README.md"
   workflow_dispatch:
+  # The CV workflow commits the rebuilt PDF with GITHUB_TOKEN, and GitHub does not
+  # start workflows from such commits. Redeploy once it finishes so the live site
+  # serves the current CV instead of the one from the previous run.
+  workflow_run:
+    workflows: [Build LaTeX CV]
+    types: [completed]
 
 permissions:
   contents: write
 
+# Queue deploys so a push-triggered run and a CV-triggered run never publish at once.
+concurrency:
+  group: deploy-site
+  cancel-in-progress: false
+
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:

@@ -3,8 +3,9 @@ name: Build LaTeX CV
 # Regenerates assets/cv/vito_mengers_cv.tex from the repository's own data
 # (_data/cv.yml, _bibliography/papers.bib and the _teachings/_talks/_outreach
 # collections), compiles it to assets/pdf/vito_mengers_cv.pdf, and commits the
-# result back. The commit only touches assets/**, so it triggers "Deploy site"
-# (which republishes the PDF) but NOT this workflow again -- no loop.
+# result back. Commits made with GITHUB_TOKEN do not trigger other workflows, so
+# "Deploy site" listens for this workflow's completion (workflow_run) instead and
+# republishes the site with the new PDF.
 
 on:
   push:
