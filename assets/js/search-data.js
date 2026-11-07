@@ -162,6 +162,11 @@ ninja.data = [{
           description: "Title of my Slam -- &quot;Why my robot is still stupid&quot;",
           section: "Outreach",handler: () => {
               window.location.href = "/outreach/25_science_slam/";
+            },},{id: "outreach-panel-discussion-at-the-reading-series-quot-science-for-fiction-quot-in-german",
+          title: 'Panel Discussion at the Reading Series &amp;quot;Science for Fiction&amp;quot; (in German)',
+          description: "Reading of Emma Braslavsky&#39;s &quot;Ich bin dein Mensch&quot; and panel discussion on human and artificial intelligence, Bruno-Lösche-Bibliothek Berlin, 10 November 2026",
+          section: "Outreach",handler: () => {
+              window.location.href = "/outreach/26_science_for_fiction/";
             },},{id: "talks-talk-scioi-s-scientific-networking-days-differentiable-interconnected-recursive-estimation",
           title: 'Talk @ SCIoI’s Scientific Networking Days Differentiable Interconnected Recursive Estimation',
           description: "",
