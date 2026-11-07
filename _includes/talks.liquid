@@ -6,7 +6,7 @@
         <h3 class="activity-year-label">{{ year_group.name }}</h3>
         <ul class="activity-items">
           {% for item in year_group.items %}
-            <li class="activity-item">
+            <li class="activity-item{% if item.invited %} invited{% endif %}">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}

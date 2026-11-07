@@ -61,3 +61,23 @@
     row-gap: 0.25rem;
   }
 }
+
+.activity-award {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #9a6700;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+
+html[data-theme="dark"] .activity-award {
+  color: #e3b341;
+}
+
+// Invited talks: accent the leading "Invited Talk" label only
+.activity-item.invited > strong:first-child {
+  color: var(--global-theme-color);
+}

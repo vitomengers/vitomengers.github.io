@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Advisor — Master Thesis "Tracking Hand Motion to Infer Object Motion Constraints"
-description: Co-Advised with Xing Li; Supervised and Examined by Oliver Brock & Guillermo Gallego; **Winner of the <a href='https://www.scienceofintelligence.de/scioi-supervised-master-thesis-receives-rolf-niedermeier-award/?utm_source=brevo&utm_campaign=Science%20of%20Intelligence%20Newsletter%205February%2025'>Rolf-Niedermeier-Award</a>**
+description: Co-Advised with Xing Li; Supervised and Examined by Oliver Brock & Guillermo Gallego
 instructor: Adrian Pfisterer
+award: Winner of the <a href='https://www.scienceofintelligence.de/scioi-supervised-master-thesis-receives-rolf-niedermeier-award/'>Rolf-Niedermeier-Award</a>
 year: 2024
 ---
 ## Student

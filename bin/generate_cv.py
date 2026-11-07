@@ -395,6 +395,8 @@ def render_teaching() -> str:
             kind = _thesis_kind(front.get("title", ""))
             primary = r"%s \, {\normalfont(%s)}" % (student, kind)
             desc = html_to_latex(front.get("description", ""), markdown=True)
+            if front.get("award"):
+                desc += r"; \textbf{%s}" % html_to_latex(front["award"], markdown=True)
             out.append(cv_entry(primary, desc, str(front.get("year", "")).strip()))
     if courses:
         out.append(r"\section{Teaching}")

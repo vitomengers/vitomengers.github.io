@@ -188,13 +188,17 @@
       {{ entry.note | strip }}
     </div>
 
-    <!-- Links/Buttons -->
-    <div class="links">
-      {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
+    {% if entry.award %}
+      <!-- Award line (click to show the award details below) -->
+      <div class="award-line">
+        <a class="award" role="button" title="Show award details">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
-      {% endif %}
+      </div>
+    {% endif %}
+
+    <!-- Links/Buttons -->
+    <div class="links">
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}

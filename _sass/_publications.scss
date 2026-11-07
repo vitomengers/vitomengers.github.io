@@ -52,3 +52,26 @@ $pub-other-color: #e56b70;
     background-color: $pub-other-color;
   }
 }
+
+/* Award line under a paper's venue */
+$award-color-light: #9a6700;
+$award-color-dark: #e3b341;
+
+.publications .award-line {
+  margin-top: 0.15rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+
+  a.award {
+    color: $award-color-light !important;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+html[data-theme="dark"] .publications .award-line a.award {
+  color: $award-color-dark !important;
+}
